@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,8 +9,37 @@
     <style rel="stylesheet" href="./style.css"></style>
     <title>crack den</title>
 </head>
+
 <body>
     <button onclick="personalTrainer()">Click Me</button>
+
+    <form id="nameform">
+        <label for="fname">Choose a name:</label>
+        <input type="text" id="fname" name="fname">
+        
+    </form>
+
+    <label for="homes">Choose a home:</label>
+    <select name="homes" id="homes" form="homesform">
+        <option value="house">house</option>
+        <option value="hole">hole</option>
+        <option value="castle">castle</option>
+        <option value="treehouse">treehouse</option>
+    </select>
+
+    <label for="titles">Choose a title:</label>
+    <select name="titles" id="titles" form="titlesform">
+        <option value="hobbit">hobbit</option>
+        <option value="goblin">goblin</option>
+        <option value="furry">furry</option>
+        <option value="bitchboy">bitchboy</option>
+    </select>
+
+    <br>
+
+    <input type="submit" value="Generate story">
+
     <div id="output"></div>
 </body>
+
 </html>

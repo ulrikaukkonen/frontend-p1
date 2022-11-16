@@ -1,4 +1,4 @@
-function personalTrainer() {
+/*function personalTrainer() {
     let minuter = Number(prompt("Hur många minuter har du tränat idag?"));
 
     if (minuter <= 10 && minuter != 0) {
@@ -13,4 +13,9 @@ function personalTrainer() {
     else {
         document.querySelector("#output").innerText ="Bra jobbat!";
     }
+  }*/
+
+ 
+  function storyGenerator() {
+    
   }
